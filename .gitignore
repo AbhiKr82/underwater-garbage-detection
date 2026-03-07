@@ -1,0 +1,53 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+venv*/
+.env/
+.venv/
+env/
+
+# ── Model Weights (large files – share via Google Drive / HuggingFace Hub) ────
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+# Keep only the best checkpoint
+!checkpoints/yolov10m_underwater_garbage_v2_best.pt
+
+# ── Training Outputs ──────────────────────────────────────────────────────────
+runs/
+# Keep the checkpoints folder (best model is tracked via the override above)
+checkpoints/*
+!checkpoints/yolov10m_underwater_garbage_v2_best.pt
+
+# ── Dataset Images & Labels (large – share separately) ───────────────────────
+Underwater_garbage/train/
+Underwater_garbage/valid/
+Underwater_garbage/test/
+*.jpg
+*.jpeg
+*.png
+*.avif
+# Keep sample_test images — override the rule above
+!sample_test/
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user

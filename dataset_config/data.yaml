@@ -1,0 +1,21 @@
+path: d:/Project/Underwater_garbage
+train: train/images
+val: valid/images
+test: test/images
+nc: 15
+names:
+  0: bottle
+  1: can
+  2: cap
+  3: cigarette
+  4: cup
+  5: fishing-line
+  6: glove
+  7: mask
+  8: other-colors
+  9: peel
+  10: plastic-bag
+  11: plastic-box
+  12: plastic-jar
+  13: plastic-gloves
+  14: unknown
