@@ -3,17 +3,6 @@
 Detect and classify **15 categories of underwater marine waste** using [YOLOv10](https://github.com/THU-MIG/yolov10), a state-of-the-art real-time object detector.
 
 ---
-
-## Demo
-
-Sample detections run on held-out test images using the best-trained checkpoint:
-
-| Sample | Sample |
-|:------:|:------:|
-| ![s1](sample_test/1.jpg) | ![s2](sample_test/2.jpg) |
-
----
-
 ## Project Structure
 
 ```
